@@ -25,6 +25,7 @@ client_scripts {
     'client/loops.lua',
     'client/events.lua',
     'client/drawtext.lua'
+    ,'client/vehicledurability/main.lua'
 }
 
 server_scripts {
@@ -36,6 +37,7 @@ server_scripts {
     'server/commands.lua',
     'server/exports.lua',
     'server/debug.lua'
+    ,'server/vehicledurability/main.lua'
 }
 
 ui_page 'html/index.html'
@@ -44,7 +46,10 @@ files {
     'html/index.html',
     'html/css/style.css',
     'html/css/drawtext.css',
-    'html/js/*.js'
+    'html/js/*.js',
+    'html/repair/index.html',
+    'html/repair/css/repair.css',
+    'html/repair/js/repair.js'
 }
 
 dependency 'oxmysql'

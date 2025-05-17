@@ -42,3 +42,11 @@ CREATE TABLE IF NOT EXISTS `player_contacts` (
   PRIMARY KEY (`id`),
   KEY `citizenid` (`citizenid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1;
+
+CREATE TABLE IF NOT EXISTS `vehicle_durability` (
+  `plate` varchar(50) NOT NULL,
+  `hp` int(11) NOT NULL DEFAULT 1000,
+  `vip` tinyint(1) NOT NULL DEFAULT 0,
+  `last_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`plate`)
+) ENGINE=InnoDB;
