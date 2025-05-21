@@ -386,5 +386,10 @@ QBShared.Items = {
     -- Crafting table's
     item_bench = {name = "item_bench", label = "Workbench", weight = 15000, type = "item", image = "workbench.png", unique = true, useable = true, shouldClose = false, combinable = nil, description = "A workbench to craft items."},
     attachment_bench = {name = "attachment_bench", label = "Attachment Workbench", weight = 15000, type = "item", image = "attworkbench.png", unique = true, useable = true, shouldClose = false, combinable = nil, description = "A workbench for crafting attachments."},
+    -- Gear items
+    looter_helmet = { name = "looter_helmet", label = "Looter Helmet", weight = 1000, type = "item", image = "looter_helmet.png", unique = true, useable = true, shouldClose = true, description = "Protects your head and grants stats." },
+    looter_chest = { name = "looter_chest", label = "Looter Chest", weight = 1000, type = "item", image = "looter_chest.png", unique = true, useable = true, shouldClose = true, description = "Chest piece that boosts your armor." },
+    looter_backpack = { name = "looter_backpack", label = "Looter Backpack", weight = 1000, type = "item", image = "looter_backpack.png", unique = true, useable = true, shouldClose = true, description = "A backpack for extra loot and bonuses." },
+
 
 }
