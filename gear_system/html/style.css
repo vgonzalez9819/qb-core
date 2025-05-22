@@ -1,0 +1,14 @@
+body {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+#gearContainer {
+    display: none;
+    margin: auto;
+    padding: 20px;
+    background: #222;
+}
+.slot {
+    margin-bottom: 5px;
+}
